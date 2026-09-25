@@ -31,5 +31,6 @@
     "repoBranch": "main",
     "path": "wechatpay-payment-integration",
     "ref": "8573bdc38b86fa67a42acfc422d6b4dbca4ada21"
-  }
+  },
+  "latestVersion": "1.0.0"
 }

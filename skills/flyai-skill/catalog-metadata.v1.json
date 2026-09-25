@@ -37,7 +37,9 @@
       "state": "unknown"
     },
     "reviewedAt": {
-      "state": "unknown"
+      "state": "known",
+      "value": "2026-09-25",
+      "precision": "day"
     },
     "upstreamObservedAt": {
       "state": "known",
@@ -55,15 +57,24 @@
   },
   "governance": {
     "stewardship": "partner",
-    "availability": "listing-only",
+    "availability": "installable",
     "license": {
-      "state": "unknown"
+      "state": "known",
+      "value": "MIT",
+      "evidencePath": "LICENSE"
     },
     "redistribution": "allowed",
     "upstreamMaintainer": {
       "name": "alibaba-flyai",
       "url": "https://github.com/alibaba-flyai/flyai-skill",
       "verified": false
+    },
+    "compliance": {
+      "licenseEvidencePath": "LICENSE",
+      "reviewedRef": "54277b27b68e53741954c08541faedba1d45cc7b",
+      "reviewedAt": "2026-09-25",
+      "reviewedBy": "mashagua",
+      "upstreamEndorsed": false
     }
   },
   "compatibility": {

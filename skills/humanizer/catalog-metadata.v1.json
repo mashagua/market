@@ -39,7 +39,9 @@
       "state": "unknown"
     },
     "reviewedAt": {
-      "state": "unknown"
+      "state": "known",
+      "value": "2026-09-25",
+      "precision": "day"
     },
     "upstreamObservedAt": {
       "state": "known",
@@ -56,15 +58,24 @@
   },
   "governance": {
     "stewardship": "community",
-    "availability": "listing-only",
+    "availability": "installable",
     "license": {
-      "state": "unknown"
+      "state": "known",
+      "value": "MIT",
+      "evidencePath": "LICENSE"
     },
     "redistribution": "allowed",
     "upstreamMaintainer": {
       "name": "blader",
       "url": "https://github.com/blader/humanizer",
       "verified": false
+    },
+    "compliance": {
+      "licenseEvidencePath": "LICENSE",
+      "reviewedRef": "523374dee72d67c7b2b5f858ea0094ffda49c3ac",
+      "reviewedAt": "2026-09-25",
+      "reviewedBy": "mashagua",
+      "upstreamEndorsed": false
     }
   },
   "compatibility": {

@@ -35,7 +35,9 @@
       "state": "unknown"
     },
     "reviewedAt": {
-      "state": "unknown"
+      "state": "known",
+      "value": "2026-09-25",
+      "precision": "day"
     },
     "upstreamObservedAt": {
       "state": "known",
@@ -52,15 +54,24 @@
   },
   "governance": {
     "stewardship": "community",
-    "availability": "listing-only",
+    "availability": "installable",
     "license": {
-      "state": "unknown"
+      "state": "known",
+      "value": "MIT",
+      "evidencePath": "LICENSE"
     },
     "redistribution": "allowed",
     "upstreamMaintainer": {
       "name": "WecomTeam",
       "url": "https://github.com/WecomTeam/wecom-cli",
       "verified": false
+    },
+    "compliance": {
+      "licenseEvidencePath": "LICENSE",
+      "reviewedRef": "78c514b2afee7c0d3d7be715628478421f37ee63",
+      "reviewedAt": "2026-09-25",
+      "reviewedBy": "mashagua",
+      "upstreamEndorsed": false
     }
   },
   "compatibility": {

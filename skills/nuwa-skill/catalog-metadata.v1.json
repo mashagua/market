@@ -39,7 +39,9 @@
       "state": "unknown"
     },
     "reviewedAt": {
-      "state": "unknown"
+      "state": "known",
+      "value": "2026-09-25",
+      "precision": "day"
     },
     "upstreamObservedAt": {
       "state": "known",
@@ -56,15 +58,24 @@
   },
   "governance": {
     "stewardship": "community",
-    "availability": "listing-only",
+    "availability": "installable",
     "license": {
-      "state": "unknown"
+      "state": "known",
+      "value": "MIT",
+      "evidencePath": "LICENSE"
     },
     "redistribution": "allowed",
     "upstreamMaintainer": {
       "name": "花生 (alchaincyf)",
       "url": "https://github.com/alchaincyf/nuwa-skill",
       "verified": false
+    },
+    "compliance": {
+      "licenseEvidencePath": "LICENSE",
+      "reviewedRef": "27642f5bfed2dc1bbf8ee59a2c1ee602a626bbd7",
+      "reviewedAt": "2026-09-25",
+      "reviewedBy": "mashagua",
+      "upstreamEndorsed": false
     }
   },
   "compatibility": {

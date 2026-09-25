@@ -37,7 +37,9 @@
       "state": "unknown"
     },
     "reviewedAt": {
-      "state": "unknown"
+      "state": "known",
+      "value": "2026-09-25",
+      "precision": "day"
     },
     "upstreamObservedAt": {
       "state": "known",
@@ -55,15 +57,24 @@
   },
   "governance": {
     "stewardship": "community",
-    "availability": "listing-only",
+    "availability": "installable",
     "license": {
-      "state": "unknown"
+      "state": "known",
+      "value": "MIT",
+      "evidencePath": "LICENSE"
     },
     "redistribution": "allowed",
     "upstreamMaintainer": {
       "name": "LearnPrompt",
       "url": "https://github.com/LearnPrompt/ai-news-radar",
       "verified": false
+    },
+    "compliance": {
+      "licenseEvidencePath": "LICENSE",
+      "reviewedRef": "f23ce289695aaf8808f4c19b0b815b51b20730a9",
+      "reviewedAt": "2026-09-25",
+      "reviewedBy": "mashagua",
+      "upstreamEndorsed": false
     }
   },
   "compatibility": {
